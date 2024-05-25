@@ -6,7 +6,7 @@ using namespace std;
 
 struct Question {
     string questionText;
-    string options[4]; //ANother alternative is to use vector (I've used array instead)
+    string options[4]; //Another alternative is to use vector (I've used array instead)
     char correctOption;
 };
 
