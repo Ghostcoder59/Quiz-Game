@@ -37,6 +37,7 @@ void displayScore(int score, int totalQuestions) {
         cout << "Excellent! You got all the questions right!" << endl;
     } else if (score >= totalQuestions / 2) {
         cout << "Good job! You scored more than half." << endl;
+    }
       else if(score == totalQuestions / 2){
         cout << "You can do better. Keep it up!" << endl;
     } else {
